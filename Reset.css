@@ -1,0 +1,124 @@
+/* Reset CSS */
+
+/* Box-sizing border-box por defecto para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Normalizar elementos de bloque */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+form,
+fieldset,
+input,
+textarea,
+button,
+select {
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados con tamaño de fuente predefinido */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Lista sin estilos */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Elementos de anclaje sin decoración por defecto */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Elementos de texto preformateado */
+pre {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+/* Elementos emergentes */
+abbr[title],
+abbr[data-original-title] {
+    cursor: help;
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+/* Cambiar a modo de cursor de texto cuando el mouse está sobre un botón */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="file"]::-webkit-file-upload-button,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="file"]::-webkit-file-upload-button:focus {
+    cursor: pointer;
+    outline: none; /* Evitar la aparición de un contorno en los botones enfocados en algunos navegadores */
+}
+
+/* Eliminar el estilo de botón en los navegadores webkit */
+button,
+input,
+optgroup,
+select,
+textarea {
+    -webkit-appearance: none;
+}
+
+/* Redefinir el estilo de selección nativo */
+select {
+    overflow: auto;
+}
+
+/* Tamaños de fuente relativos */
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%; /* Evita que iOS cambie el tamaño de la fuente al girar el dispositivo */
+}
+
+/* Eliminar el espaciado adicional vertical e inferior para las etiquetas de imagen */
+img {
+    vertical-align: middle;
+    border-style: none; /* Evitar que IE aplique un borde a las imágenes dentro de enlaces */
+}
+
+/* Formulario e input de tipo button */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font: inherit; /* Heredar el tamaño de fuente y familia del padre */
+}
+
+/* Elementos de tabla */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

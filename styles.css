@@ -1,0 +1,122 @@
+
+.card{
+    border: 2px; color: white;
+    width: fit-content;
+    padding: 0px 2em 1em 2em;
+    border-radius: 5%;
+    transition: 1s;
+}
+.cards{
+    border: 2px; color: white;
+    width: fit-content;
+    padding: 0px 2em 1em 2em;
+    border-radius: 5%;
+    transition: 1s;
+    justify-content:space-around
+}
+.card:hover{
+    background-color: darkkhaki;
+}
+#logo1:hover{background-color: rgba(255, 77, 12, 0.651);
+    transition: 1s;
+    
+}
+#logo2:hover{
+    background-color: rgba(0, 0, 255, 0.651);
+    transition: 1s;
+    padding-top: 2em;
+}
+#logo3:hover{
+    background-color: rgba(255, 217, 0, 0.651);
+    transition: 1s;
+    padding-top: 2em;
+}
+#logo4:hover{
+    background-color: rgba(85, 122, 158, 0.651);
+    transition: 1s;
+    
+}
+#logo6:hover{
+    background-color: rgba(30, 97, 160, 0.651);
+   transition: 1s;
+}
+#logo5:hover{
+    background-color: rgba(56, 49, 153, 0.651);
+    transition: 1s;
+    padding-top: 1em;
+    
+}
+#logo7:hover{
+    background-color: rgba(189, 60, 86, 0.651);
+    transition: 1s;
+}
+#tecnologias{
+    padding-top: 3em;
+    font-size: 30px;
+}
+    
+.title{ color  : rgb(255, 253, 253); font-size : 20px;
+    text-align: center;
+
+}
+#Minombre{
+    padding-top: 30px;
+    font-size: 40px;
+    font-style:oblique;
+}
+#Sobremi{
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.parrafos{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 19px;
+    background-color: rgba(87, 82, 82, 0.062);
+    width: 90vw;
+    margin: auto;
+    padding-bottom: 1em;
+}
+.parrafos:hover{
+    background-color: rgba(73, 73, 73, 0.719);
+    transition: 1s;
+}
+
+.logo{
+    width : 200px;
+    height: 200px;
+    margin : 1% ;}
+    
+
+#targeta{ 
+    border: 2px; color: white;
+    border-radius: 15%;
+}
+#card-container{
+    
+    width: 90vw;
+    margin: auto;
+    margin-top: 3em;
+    border: 2px; 
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-evenly;
+}
+#card-containers{ width: 90vw;
+    margin: auto;
+    margin-top: 3em;
+    border: 2px; 
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-evenly;
+
+}
